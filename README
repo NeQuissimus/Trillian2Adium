@@ -1,0 +1,38 @@
+/******************************************
+
+	Trillian2Adium - Convert Trillian logs
+				to Adium transcripts
+				
+		by Tim Steinbach aka NeQuissimus
+			http://nequissimus.com/
+
+******************************************/
+
+1. Purpose
+2. How-To
+3. Credits
+
+
+1. What is its purpose?
+
+A lot of people have recently bought Macs after having had PCs for years.
+Trillian is one of the most popular messengers for Windows.
+Wouldn't you like to have all your older logs on your new computer?
+With Trillian2Adium you can convert all your Trillian logs into Adium transcripts!
+
+
+2. How to use?
+
+Place all the .xml files Trillian has created into a separate folder.
+Copy this .app into the same folder and run the .app.
+There should be one folder for each .xml file.
+This folder will contain the proper Adium transcripts which will have to be copied to ~/Library/Application Support/Adium 2.0/Users/default/Logs/XXX
+XXX has to be replaced by the account you have used to create the logs files in Trillian (e.g. ICQ.12345678)
+After that all transcripts can be found in Adium's Transcript Viewer.
+
+Finally, delete the folder ~/Library/Caches/Adium for Adium to create a new search index for all the newly added transcripts.
+
+
+3. Credits
+
+KT ftw!
